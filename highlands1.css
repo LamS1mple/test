@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* border: 0.2px black solid; */
+}
+header {
+
+  border-top: 100px;
+  background-color: rgb(178, 40, 48);
+  height: 8em;
+}
+.logo {
+  position: absolute;
+  padding-left: 10px;
+}
+.hinh_logo {
+  padding: 10px;
+}
+.search {
+  padding-right: 100px;
+  padding-top: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+}
+.search button {
+  height: 32px;
+  width: 42px;
+  border: none;
+  background-color: white;
+  margin-right: 16px;
+  margin-left: 20px;
+}
+.search input {
+  height: 30px;
+  background-color: white;
+  padding: 1px;
+  border: none;
+}
+
+.dropdown ul li a {
+  list-style: none;
+  display: block;
+}
+.dropdown ul li a {
+  display: block;
+  color: white;
+}
+.dropdown_2 ul {
+  display: flex;
+}
+.dropdown,
+.dropdown_2 {
+  background-color: rgb(83, 56, 44);
+  /* position:fixed; */
+  left: 0%;
+  width: 100%;
+  margin-top: 2em;
+}
+.dropdown_2 {
+  display: none;
+}
+.menu_ul {
+	margin-top: 32px;
+  display: flex;
+  padding-left: 250px;
+  font-family: 'Roboto' , Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+.menu_ul li {
+  display: inline;
+  padding-left: 30px;
+}
+.menu_ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px 10px;
+  transition: background-color 0.7s;
+}
+.menu_ul li a:hover {
+  background-color: rgb(83, 56, 44);
+}
+.drop {
+  position: relative;
+}
+.dropdown {
+  background-color: rgb(83, 56, 44);
+  position: absolute;
+  display: none;
+  text-align: center;
+  /* display: grid; */
+  grid-template-columns:  25% 25% 25% 25%;
+  grid-template-rows: 1fr;
+  /* transition: all 0.2s linear; */
+  
+}
+.chon{
+	transition: d 0.7s;
+}
+.chon:hover + .dropdown {
+	/* background-color: aqua; */
+	display: grid;
+} 
+.menu a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  margin: auto;
+}
+.top{
+	background-color: rgb(83, 56, 44);
+	height: 10px;
+}
+.language{
+	margin-left: 10px;
+}
